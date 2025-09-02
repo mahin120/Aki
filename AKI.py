@@ -208,8 +208,8 @@ formatted_time = now.strftime("%I:%M:%S %p")
 
 # Your updated logo block with date & time at bottom
 logo = (f"""\x1b[1;97m
-\x1b[1;92m▶𝗫𝗗
-\x1b[1;97m 
+\x1b[1;90m▶RJ
+\x1b[1;96m 
  ▗▖ ▗▖ ▗▄▖ ▗▖  ▗▖▗▄▄▖ ▗▖ ▗▖▗▖   
 ▐▌▗▞▘▐▌ ▐▌▐▛▚▞▜▌▐▌ ▐▌▐▌ ▐▌▐▌   
 ▐▛▚▖ ▐▛▀▜▌▐▌  ▐▌▐▛▀▚▖▐▌ ▐▌▐▌   
@@ -219,12 +219,12 @@ logo = (f"""\x1b[1;97m
                                
 
 AUTHOR   :  RJ KAMRUL 🌝
-GITHUB   :    mahin120
-BESTU    :    ALL TERMUX COMMAND USER🐥 ❤️      
+GITHUB   :  mahin120
+BESTU    :  ALL TERMUX COMMAND USER🐥 ❤️      
 VERSION  :  2.0
 DATE     : {formatted_date}
 TIME     : {formatted_time}
-\x1b[1;92mLOGO KA JOIN WHATSAPP GROUP 
+\x1b[1;92m JOIN WHATSAPP GROUP 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """)
 #----------------------------[MAIN/DEF]-----------------------------------#
@@ -251,9 +251,9 @@ def main():
     lin()
     cspd = input(f"{g}<{r}/{g}>{w} CHOICE    {r}: {g}")
     if "1" in cspd:
-        speedx = 45
+        speedx = 60
     else:
-        speedx = 30
+        speedx = 40
         
     if ask in ["1"]:
         sv = f"{g}[{w}2011{r}-{w}2014{g}]"
@@ -290,7 +290,7 @@ def main():
     lin()
     input(f"{g}[{r}~{g}] {w}PRESS ENTER TO EXIT")
     sys.exit()
-#----------------------------[METHOD 1]-----------------------------------#
+#----------------------------[METHOD A]-----------------------------------#
 def login(uid, tl):
     global oks, loop
     try:
@@ -335,11 +335,11 @@ def login(uid, tl):
         time.sleep(30)
     except Exception as e:
         pass
-#----------------------------[METHOD 2]-----------------------------------#
+#----------------------------[METHOD B]-----------------------------------#
 def login1(uid, tl):
     global oks, loop
     try:
-        sys.stdout.write(f"\r➤KAMRUL{r}-{g}XD {r}[{g}{loop}{r}/{w}{tl}{r}] [{g}OK{r}/{g}{len(oks)}{r}]")
+        sys.stdout.write(f"\r➤KAMRUL{r}-{g}RJ {r}[{g}{loop}{r}/{w}{tl}{r}] [{g}OK{r}/{g}{len(oks)}{r}]")
         sys.stdout.flush()
         for pw in ["123456", "1234567", "12345678", "123456789", "123123", "000000", "asdfgh", "qwerty", "112233", "987654321"]:
 
